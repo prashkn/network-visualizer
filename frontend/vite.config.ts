@@ -5,7 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/devices": "http://localhost:8000",
+      "/devices": "http://localhost:8001",
+    },
+    hmr: {
+      host: '10.0.0.247',
     },
   },
 })

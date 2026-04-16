@@ -1,0 +1,5 @@
+node_modules/
+.claude/
+server/venv/
+server/__pycache__/
+server/known_devices.json
